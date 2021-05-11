@@ -13,6 +13,8 @@
 		24DF5380264AEC85008BAE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DF537F264AEC85008BAE25 /* Assets.xcassets */; };
 		24DF5383264AEC85008BAE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF5381264AEC85008BAE25 /* LaunchScreen.storyboard */; };
 		24DF538B264AED65008BAE25 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF538A264AED65008BAE25 /* FoodTableViewController.swift */; };
+		24DF538D264AED9E008BAE25 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF538C264AED9E008BAE25 /* Food.swift */; };
+		24DF538F264AEDAB008BAE25 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF538E264AEDAB008BAE25 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		24DF5382264AEC85008BAE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DF5384264AEC85008BAE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DF538A264AED65008BAE25 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		24DF538C264AED9E008BAE25 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		24DF538E264AEDAB008BAE25 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				24DF5378264AEC84008BAE25 /* SceneDelegate.swift */,
 				24DF537C264AEC84008BAE25 /* Main.storyboard */,
 				24DF538A264AED65008BAE25 /* FoodTableViewController.swift */,
+				24DF538C264AED9E008BAE25 /* Food.swift */,
+				24DF538E264AEDAB008BAE25 /* Meal.swift */,
 				24DF537F264AEC85008BAE25 /* Assets.xcassets */,
 				24DF5381264AEC85008BAE25 /* LaunchScreen.storyboard */,
 				24DF5384264AEC85008BAE25 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DF538F264AEDAB008BAE25 /* Meal.swift in Sources */,
 				24DF5377264AEC84008BAE25 /* AppDelegate.swift in Sources */,
+				24DF538D264AED9E008BAE25 /* Food.swift in Sources */,
 				24DF538B264AED65008BAE25 /* FoodTableViewController.swift in Sources */,
 				24DF5379264AEC84008BAE25 /* SceneDelegate.swift in Sources */,
 			);
